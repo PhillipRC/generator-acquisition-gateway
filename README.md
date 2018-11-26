@@ -4,7 +4,7 @@
 
 ### Using global
 
-##### `npm install -g yo` - To install the [Yoeman](http://yeoman.io)
+##### `npm install -g yo` - To install the [Yeoman](http://yeoman.io)
 ##### `npm install -g generator-acquisition-gateway` - To install the generator
 ##### `cd CAP-ACQUISITION_GATEWAY/hallways` - To go to project root folder
 ##### `yo acquisition-gateway` - Sets the project root folder (creating the .yo-rc.json file)
