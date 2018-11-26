@@ -10,36 +10,36 @@ define(
 
       beforeEach(function () {
 
-          inject(function (_<%= nameCamel %>_) {
-            <%= nameCamel %> = _<%= nameCamel %>_;
+          inject(function (_<%= nameClass %>_) {
+            <%= nameClass %> = _<%= nameClass %>_;
           })
 
         }
       );
 
       it('should return an object', function () {
-        expect(<%= nameCamel %>).toEqual(jasmine.any(Object));
+        expect(<%= nameClass %>).toEqual(jasmine.any(Object));
       });
 
       describe('should exercise booleanValue', function () {
 
         it('should have a default', function () {
-          expect(<%= nameCamel %>.booleanValue).toEqual(false);
+          expect(<%= nameClass %>.booleanValue).toEqual(false);
         });
 
         it('should set true', function () {
-          <%= nameCamel %>.booleanValue = true;
-          expect(<%= nameCamel %>.booleanValue).toEqual(true);
+          <%= nameClass %>.booleanValue = true;
+          expect(<%= nameClass %>.booleanValue).toEqual(true);
         });
 
         it('should set false', function () {
-          <%= nameCamel %>.booleanValue = false;
-          expect(<%= nameCamel %>.booleanValue).toEqual(false);
+          <%= nameClass %>.booleanValue = false;
+          expect(<%= nameClass %>.booleanValue).toEqual(false);
         });
 
         it('should throw error when set to a string', function () {
           expect(function () {
-            <%= nameCamel %>.booleanValue = 'string';
+            <%= nameClass %>.booleanValue = 'string';
           })
           .toThrow(new TypeError('Value must be a boolean'));
         });

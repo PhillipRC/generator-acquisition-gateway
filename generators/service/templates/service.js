@@ -12,7 +12,7 @@ define(
      * @description Description of Service
      * @class <%= nameClass %>
      */
-    .service('<%= nameCamel %>', function () {
+    .service('<%= nameClass %>', function () {
 
       // service object
       var returnObject = {};
