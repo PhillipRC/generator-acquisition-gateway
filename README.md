@@ -19,9 +19,6 @@
 Sets the Project root
 
 ### Service
-Generates an AngularJS Service and test files
-
-### Factory
 Generates an AngularJS Service and test files. This is useful when a
 [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern) is needed. 
 
