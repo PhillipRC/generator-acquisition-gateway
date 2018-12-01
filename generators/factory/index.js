@@ -25,7 +25,7 @@ module.exports = class extends Generator {
   addTemplate() {
 
     this.fs.copyTpl(
-      this.templatePath('service.js'),
+      this.templatePath('factory.js'),
       this.destinationPath(this.names.path_file),
       this.names
     );
@@ -36,7 +36,7 @@ module.exports = class extends Generator {
   addTest() {
 
     this.fs.copyTpl(
-      this.templatePath('service_test.js'),
+      this.templatePath('factory_test.js'),
       this.destinationPath(this.names.path_file_test),
       this.names
     );
