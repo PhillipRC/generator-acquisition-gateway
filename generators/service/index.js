@@ -1,6 +1,6 @@
 'use strict';
 var Generator = require('yeoman-generator');
-var AcquisitionGatewayNameGen = require('../../AcquisitionGatewayNameGen.js');
+var AcquisitionGatewayNameGen = require('../AcquisitionGatewayNameGen.js');
 
 module.exports = class extends Generator {
 
