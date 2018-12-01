@@ -32,7 +32,7 @@ function AcquisitionGatewayNameGen(type, name) {
     this.nameCamel = s.camelize(this.nameDash);
     this.nameTitle = s(this.nameDash).humanize().titleize().value();
     this.path_file = config[type].path_file + '/' + this.nameDash + config[type].path_file_suffix;
-    this.path_file_test = config[type].path_file_test + this.nameDash + config[type].path_file_test_suffix;
+    this.path_file_test = config[type].path_file_test + '/' + this.nameDash + config[type].path_file_test_suffix;
 
   }
 

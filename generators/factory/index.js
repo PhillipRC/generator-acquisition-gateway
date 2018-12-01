@@ -16,9 +16,6 @@ module.exports = class extends Generator {
     // get the names
     this.names = new AcquisitionGatewayNameGen('service', this.options.name);
 
-    // path to place templates
-    this.path = 'ag-app/app/scripts/components/services';
-
   }
 
   // add code template
