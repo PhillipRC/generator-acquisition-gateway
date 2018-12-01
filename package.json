@@ -1,6 +1,6 @@
 {
   "name": "generator-acquisition-gateway",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Yeoman generator for the Acquisition Gateway",
   "keywords": [
     "yeoman-generator",
