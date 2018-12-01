@@ -52,8 +52,13 @@ yo acquisition-gateway:factory my-factory
 
 Produces `hallways/ag-app/app/scripts/components/services/my-factory-service.js`:
 ```javascript
-.service('MyFactoryService', function () {
-  // ...
+.factory('MyFactoryService', function () {
+  
+  // returns a factory function
+  return function () {
+    // ...
+  }
+  
 });
 ```
 
